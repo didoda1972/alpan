@@ -1,0 +1,46 @@
+body {
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #E6E6E6;
+    padding: 5px;
+    height: 100%;
+}
+
+.navig {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: #CED8F6;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+	display: inline;
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #848484;
+    font-weight: 800;
+}
+
+.logo{
+    width: 320px;
+    height: 237px;
+    margin-left: 10px;
+}
